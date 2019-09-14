@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <title>Eriksminde</title>
+</head>
+
+<body>
+
+      <div class="indikator-bar">
+        <div class="fremskridt" id="minBar"></div></div>
+
+
+
+  <div id="bg">
+    <h1 id="tekst">ERIKSMINDE</h1>
+  </div>
+
+  <section class="blockquote-wrapper">
+    <div class="blockquote">
+      <h1>
+        Det er så fedt på <span class="farvespanhvid">Eriksminde.</span> Vi har det bedste <span class="farvespanhvid">fællesskab</span>
+      </h1>
+      <h4>August Præstholm<br><em>Elev på Eriksminde efterskole</em></h4>
+    </div>
+  </section>
+
+  <section id="billede_2">
+
+    <p>HEJ</p>
+
+  </section>
+
+
+
+<section id="video">
+    <div id="lyd">
+      <video id="eriksmindevideo" controls>
+        <source src="emevideo.mp4" type="video/mp4">
+        Din browser understøtter ikke videoer.
+      </video>
+
+      <div id="foralle">
+        <h3><span class="farvespanhvid">ERIKS<br>MINDE<br>ER</span><br>FOR<br>ALLE</h3>
+      </div>
+    </div>
+  </section>
+  <div id="findme"></div>
+
+
+
+  <section id="billede_3">
+    <div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+
+        </div>
+        <div class="flip-box-back">
+          <h2>MARIA</h2>
+          <p>CITAT</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="slideshow">
+
+    <div class="slider">
+      <img src="images/bygning.jpg" alt="Faciliteter ved Eriksminde efterskole" />
+      <img src="images/sav.jpg" alt="Sløjd på skolen" />
+      <img src="images/bordfodbold.jpg" alt="Bordfodbold" />
+      <img src="images/mad.jpg" alt="Maden på skolen" />
+    </div>
+<h2>Se hvad<br>vi laver!</h2>
+    <div class="teksttilimg">
+      <p>Skolen råder over en masse faciliteter i en lang række bygninger.<br> Her er skolens nyeste del, hvor der både er undervisning og værelser.</p>
+      <p>På skolen har vi en masse redskaber til både undervisning og fritid.<br> Her ses eksempelvis sløjdlokalet, hvor vi har alverdens redskaber. </p>
+      <p>I fritiden hygges der på skolen.<br> Her er en række elever ved at kæmpe i et spil bordfodbold!</p>
+      <p>Maden på skolen hjælpes vi ad om at lave!<br>I køkkenet står en kok, men eleverne får også mulighed for at hjælpe til.</p>
+    </div>
+
+  </section>
+
+
+<section id="interkort">
+  <div id="musiktekst">
+<h2>
+  <i class="material-icons">arrow_back_ios</i>
+    <i class="material-icons">arrow_back_ios</i>
+    Hør August' musik</h2>
+  <p>Hold musen over skærmen og hør den musik, August har lavet på Eriksminde.</p>
+</div>
+
+
+<!--Refererer til lyden nedenfor-->
+  <div id="knaptillyd" onmouseover="PlaySound('mySound')"
+      onmouseout="StopSound('mySound')"></div>
+  <audio id='mySound' src='musik.mp3'/>
+
+
+</section>
+
+
+<footer>
+
+
+</footer>
+
+
+
+  <!-- Link til javascriptet -->
+  <script src="js/js.js"></script>
+</body>
+
+</html>
